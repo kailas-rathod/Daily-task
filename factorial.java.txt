@@ -1,0 +1,18 @@
+
+public class Factorial {
+    public static void main(String[] args) {
+        int num =5;
+     int factorial = Facto(num);
+        
+        System.out.println("Factorial of"+ num +"="+ factorial);
+
+    }
+    public static int Facto(int num)
+    {
+        if(num == 0 )
+                    return 1;
+        else
+        return num * Facto(num -1);
+    }
+    
+}
